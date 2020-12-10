@@ -2,6 +2,7 @@
     position: relative;
     height: inherit;
     width: inherit;
+    top: 350px;
 }
 
 .map, .track, .spinner {

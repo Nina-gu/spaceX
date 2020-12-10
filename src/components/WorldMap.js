@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import axios from "axios";
 import { Spin } from "antd";
@@ -18,7 +19,7 @@ import {
 const width = 960;
 const height = 600;
 
-class WorldMap1 extends Component {
+class WorldMap extends Component {
     constructor() {
         super();
         this.state = {
@@ -227,4 +228,4 @@ class WorldMap1 extends Component {
     };
 }
 
-export default WorldMap1;
+export default WorldMap;
